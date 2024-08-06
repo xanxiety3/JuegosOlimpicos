@@ -1,0 +1,92 @@
+@media(max-width: 912px){
+
+    body{
+        background-image: url("../media/images/bg.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-size: cover;
+    }
+    .inicioPag{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+    
+        
+    }
+  
+
+    
+    .iconoVolver{
+        display: flex;
+        gap:15vw;
+    }
+
+   
+
+    .bandera{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+
+    }
+    .bandera img{
+        width: 45vw;
+    }
+
+    .titulos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        
+    }
+    .tipo{
+        display: flex;
+        width: 100vw;
+        gap: 5vw;
+      
+    }
+
+    .puntaje{
+        display: flex;
+        justify-content: center;
+        gap: 20vw;
+    }
+
+    .medallas{
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:3vw;
+    
+      
+    }
+    .medallas img{
+        width: 10vw;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+      
+
+    }
+    #medallas{
+        background-color: rgba(225, 225, 225, 0.5);
+        border-radius: 2vw;
+        
+        display: flex;
+        justify-content: left;
+        padding-left: 3vw;
+        padding-top: 3vw;
+
+       
+        
+    }
+
+   
+ 
+}

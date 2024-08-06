@@ -1,0 +1,23 @@
+@media (max-width:430px) {
+
+  body{
+    background-image: url("/media/images/bg.png");
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    height: 100%;
+
+    
+  }
+ 
+  #logos{
+    display: flex;
+  }
+  .paises{
+    
+    display: flex;
+  }
+
+  
+}

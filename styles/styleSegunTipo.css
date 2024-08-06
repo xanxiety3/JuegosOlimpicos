@@ -1,0 +1,59 @@
+@media(max-width: 912px){
+
+    body{
+        background-image: url("../media/images/bg.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-size: cover;
+    }
+    .inicioPag{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+    
+        
+    }
+  
+
+    
+    .iconoVolver{
+        display: flex;
+        gap:15vw;
+    }
+
+   
+
+    .bandera{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+
+    }
+    .bandera img{
+        width: 45vw;
+    }
+
+    .puntaje{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    }
+    .titulosCategoria{
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 5vw;
+    }
+    .resultados{
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 20vw;
+    }
+}

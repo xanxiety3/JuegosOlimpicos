@@ -1,0 +1,50 @@
+@media(max-width: 912px){
+
+    a{
+        text-decoration: none;
+        font-size: 8vw;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    body{
+        background-image: url("../media/images/bg.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .logos{
+        display: flex;
+        justify-content: center;
+        padding-top: 10vw;
+    }
+    .logos img{
+        width: 80vw;
+    }
+
+    .framePrincipal{
+        display: flex;
+        justify-content: center;
+        padding-top: 10vw;
+    }
+    .countriesBoton{
+        display: flex;
+        justify-content: center;
+        
+        
+        width: 100vw;
+        gap: 3vw;
+      
+
+    }
+    .disciplineBoton{
+        display: flex;
+        justify-content: center;
+    color: white;
+        width: 100vw;
+        gap: 3vw;
+
+    }
+        
+    
+}
